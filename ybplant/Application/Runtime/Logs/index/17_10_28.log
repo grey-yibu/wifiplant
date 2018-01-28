@@ -1,0 +1,692 @@
+[ 2017-10-28T08:18:59+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":22,"h_d":47,"h_o":46},{"t":23,"h_d":45,"h_o":46},{"t":23,"h_d":42,"h_o":46},{"t":23,"h_d":42,"h_o":45},{"t":23,"h_d":40,"h_o":45},{"t":23,"h_d":38,"h_o":45},{"t":23,"h_d":37,"h_o":44},{"t":23,"h_d":36,"h_o":44},{"t":23,"h_d":36,"h_o":44},{"t":23,"h_d":35,"h_o":44},{"t":23,"h_d":35,"h_o":44},{"t":23,"h_d":34,"h_o":43}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','22','47','46','2017-10-28 07:23:59') [ RunTime:0.0264s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','45','46','2017-10-28 07:28:59') [ RunTime:0.0258s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','42','46','2017-10-28 07:33:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','42','45','2017-10-28 07:38:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','40','45','2017-10-28 07:43:59') [ RunTime:0.0230s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','38','45','2017-10-28 07:48:59') [ RunTime:0.0294s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','37','44','2017-10-28 07:53:59') [ RunTime:0.0273s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','36','44','2017-10-28 07:58:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','36','44','2017-10-28 08:03:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','35','44','2017-10-28 08:08:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','35','44','2017-10-28 08:13:59') [ RunTime:0.0241s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','34','43','2017-10-28 08:18:59') [ RunTime:0.0241s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509149939' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-10-28T09:19:59+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":23,"h_d":33,"h_o":43},{"t":23,"h_d":33,"h_o":43},{"t":23,"h_d":32,"h_o":43},{"t":23,"h_d":31,"h_o":43},{"t":23,"h_d":31,"h_o":42},{"t":23,"h_d":31,"h_o":42},{"t":23,"h_d":31,"h_o":42},{"t":23,"h_d":32,"h_o":42},{"t":23,"h_d":32,"h_o":41},{"t":23,"h_d":33,"h_o":41},{"t":24,"h_d":33,"h_o":41},{"t":24,"h_d":33,"h_o":41}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','33','43','2017-10-28 08:24:59') [ RunTime:0.0256s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','33','43','2017-10-28 08:29:59') [ RunTime:0.0260s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','32','43','2017-10-28 08:34:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','31','43','2017-10-28 08:39:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','31','42','2017-10-28 08:44:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','31','42','2017-10-28 08:49:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','31','42','2017-10-28 08:54:59') [ RunTime:0.0323s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','32','42','2017-10-28 08:59:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','32','41','2017-10-28 09:04:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','33','41','2017-10-28 09:09:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','33','41','2017-10-28 09:14:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','33','41','2017-10-28 09:19:59') [ RunTime:0.0261s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509153599' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2017-10-28T10:20:59+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":33,"h_o":41},{"t":24,"h_d":33,"h_o":41},{"t":24,"h_d":33,"h_o":41},{"t":24,"h_d":33,"h_o":41},{"t":23,"h_d":33,"h_o":40},{"t":24,"h_d":33,"h_o":40},{"t":24,"h_d":33,"h_o":40},{"t":24,"h_d":32,"h_o":40},{"t":24,"h_d":32,"h_o":40},{"t":24,"h_d":32,"h_o":40},{"t":24,"h_d":32,"h_o":40},{"t":24,"h_d":31,"h_o":40}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','33','41','2017-10-28 09:25:59') [ RunTime:0.0283s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','33','41','2017-10-28 09:30:59') [ RunTime:0.0257s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','33','41','2017-10-28 09:35:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','33','41','2017-10-28 09:40:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','33','40','2017-10-28 09:45:59') [ RunTime:0.0326s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','33','40','2017-10-28 09:50:59') [ RunTime:0.0262s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','33','40','2017-10-28 09:55:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','40','2017-10-28 10:00:59') [ RunTime:0.0259s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','40','2017-10-28 10:05:59') [ RunTime:0.0309s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','40','2017-10-28 10:10:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','40','2017-10-28 10:15:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','40','2017-10-28 10:20:59') [ RunTime:0.0243s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509157259' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002736s ]
+
+[ 2017-10-28T11:21:59+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":31,"h_o":40},{"t":24,"h_d":31,"h_o":40},{"t":24,"h_d":30,"h_o":39},{"t":24,"h_d":31,"h_o":38},{"t":24,"h_d":31,"h_o":38},{"t":24,"h_d":32,"h_o":40},{"t":24,"h_d":32,"h_o":39},{"t":24,"h_d":31,"h_o":38},{"t":24,"h_d":30,"h_o":38},{"t":24,"h_d":30,"h_o":38},{"t":24,"h_d":30,"h_o":38},{"t":24,"h_d":30,"h_o":38}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','40','2017-10-28 10:26:59') [ RunTime:0.0281s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','40','2017-10-28 10:31:59') [ RunTime:0.0259s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','39','2017-10-28 10:36:59') [ RunTime:0.0244s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','38','2017-10-28 10:41:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','38','2017-10-28 10:46:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','40','2017-10-28 10:51:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','39','2017-10-28 10:56:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','38','2017-10-28 11:01:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','38','2017-10-28 11:06:59') [ RunTime:0.0259s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','38','2017-10-28 11:11:59') [ RunTime:0.0308s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','38','2017-10-28 11:16:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','38','2017-10-28 11:21:59') [ RunTime:0.0241s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509160919' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002730s ]
+
+[ 2017-10-28T12:22:59+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":31,"h_o":38},{"t":24,"h_d":30,"h_o":38},{"t":24,"h_d":30,"h_o":38},{"t":24,"h_d":29,"h_o":38},{"t":24,"h_d":28,"h_o":38},{"t":24,"h_d":29,"h_o":38},{"t":24,"h_d":29,"h_o":38},{"t":24,"h_d":28,"h_o":38},{"t":24,"h_d":28,"h_o":38},{"t":24,"h_d":27,"h_o":38},{"t":24,"h_d":27,"h_o":38},{"t":24,"h_d":27,"h_o":38}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','38','2017-10-28 11:27:59') [ RunTime:0.0323s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','38','2017-10-28 11:32:59') [ RunTime:0.0257s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','38','2017-10-28 11:37:59') [ RunTime:0.0246s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','29','38','2017-10-28 11:42:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','28','38','2017-10-28 11:47:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','29','38','2017-10-28 11:52:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','29','38','2017-10-28 11:57:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','28','38','2017-10-28 12:02:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','28','38','2017-10-28 12:07:59') [ RunTime:0.0326s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','38','2017-10-28 12:12:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','38','2017-10-28 12:17:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','38','2017-10-28 12:22:59') [ RunTime:0.0243s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509164579' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2017-10-28T13:23:59+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":27,"h_o":38},{"t":24,"h_d":27,"h_o":38},{"t":24,"h_d":27,"h_o":38},{"t":24,"h_d":27,"h_o":37},{"t":24,"h_d":26,"h_o":37},{"t":24,"h_d":27,"h_o":37},{"t":24,"h_d":26,"h_o":37},{"t":24,"h_d":26,"h_o":37},{"t":24,"h_d":27,"h_o":37},{"t":24,"h_d":27,"h_o":37},{"t":24,"h_d":27,"h_o":37},{"t":24,"h_d":27,"h_o":37}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','38','2017-10-28 12:28:59') [ RunTime:0.0264s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','38','2017-10-28 12:33:59') [ RunTime:0.0254s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','38','2017-10-28 12:38:59') [ RunTime:0.0230s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','37','2017-10-28 12:43:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','26','37','2017-10-28 12:48:59') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','37','2017-10-28 12:53:59') [ RunTime:0.0244s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','26','37','2017-10-28 12:58:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','26','37','2017-10-28 13:03:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','37','2017-10-28 13:08:59') [ RunTime:0.0243s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','37','2017-10-28 13:13:59') [ RunTime:0.0302s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','37','2017-10-28 13:18:59') [ RunTime:0.0267s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','37','2017-10-28 13:23:59') [ RunTime:0.0242s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509168239' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002517s ]
+
+[ 2017-10-28T13:34:46+08:00 ] 10.97.95.176 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 67 行.
+NOTIC: [8] Undefined index: isuser D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 67 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 69 行.
+NOTIC: [8] Undefined index: isuser D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-10-28T13:34:49+08:00 ] 10.97.95.176 /index.php/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 67 行.
+NOTIC: [8] Undefined index: isuser D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 67 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 69 行.
+NOTIC: [8] Undefined index: isuser D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-10-28T13:34:49+08:00 ] 10.97.95.176 /index.php/index/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-10-28T13:34:56+08:00 ] 10.97.95.176 /index.php/index/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+NOTIC: [8] Use of undefined constant yanzhengma - assumed 'yanzhengma' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'yibu' AND `password` = '199467' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: a D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 67 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 69 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 69 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-10-28T13:50:55+08:00 ] 10.98.103.180 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 67 行.
+NOTIC: [8] Undefined index: isuser D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 67 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 69 行.
+NOTIC: [8] Undefined index: isuser D:\wamp\www\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-10-28T13:51:00+08:00 ] 10.98.103.180 /index.php/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 67 行.
+NOTIC: [8] Undefined index: isuser D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 67 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 69 行.
+NOTIC: [8] Undefined index: isuser D:\wamp\www\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-10-28T13:51:00+08:00 ] 10.98.103.180 /index.php/index/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-10-28T13:51:05+08:00 ] 10.98.103.180 /index.php/index/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [8] Use of undefined constant yanzhengma - assumed 'yanzhengma' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 87 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'yibu' AND `password` = '199467' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: a D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 99 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 67 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 69 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 69 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-10-28T15:26:09+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":27,"h_o":96},{"t":24,"h_d":27,"h_o":96},{"t":24,"h_d":28,"h_o":95},{"t":25,"h_d":28,"h_o":94},{"t":24,"h_d":29,"h_o":94},{"t":25,"h_d":28,"h_o":94},{"t":25,"h_d":28,"h_o":92},{"t":25,"h_d":28,"h_o":91},{"t":25,"h_d":28,"h_o":91},{"t":25,"h_d":28,"h_o":91},{"t":25,"h_d":28,"h_o":91},{"t":25,"h_d":29,"h_o":91}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','96','2017-10-28 14:31:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','27','96','2017-10-28 14:36:09') [ RunTime:0.0241s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','28','95','2017-10-28 14:41:09') [ RunTime:0.0230s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','94','2017-10-28 14:46:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','29','94','2017-10-28 14:51:09') [ RunTime:0.0233s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','94','2017-10-28 14:56:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','92','2017-10-28 15:01:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','91','2017-10-28 15:06:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','91','2017-10-28 15:11:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','91','2017-10-28 15:16:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','91','2017-10-28 15:21:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','91','2017-10-28 15:26:09') [ RunTime:0.0221s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509175569' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002795s ]
+
+[ 2017-10-28T16:27:09+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":28,"h_o":90},{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":28,"h_o":89},{"t":25,"h_d":29,"h_o":90},{"t":25,"h_d":29,"h_o":90}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 15:32:09') [ RunTime:0.0231s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 15:37:09') [ RunTime:0.0250s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','90','2017-10-28 15:42:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 15:47:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 15:52:09') [ RunTime:0.0221s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 15:57:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 16:02:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 16:07:09') [ RunTime:0.0233s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 16:12:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','28','89','2017-10-28 16:17:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 16:22:09') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','25','29','90','2017-10-28 16:27:09') [ RunTime:0.0235s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509179229' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002883s ]
+
+[ 2017-10-28T18:29:19+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":31,"h_o":87},{"t":24,"h_d":31,"h_o":87},{"t":24,"h_d":31,"h_o":87},{"t":24,"h_d":31,"h_o":86},{"t":24,"h_d":31,"h_o":86},{"t":24,"h_d":31,"h_o":86},{"t":24,"h_d":31,"h_o":86},{"t":24,"h_d":31,"h_o":86},{"t":24,"h_d":32,"h_o":86},{"t":24,"h_d":32,"h_o":86},{"t":24,"h_d":32,"h_o":86},{"t":24,"h_d":31,"h_o":86}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','87','2017-10-28 17:34:19') [ RunTime:0.0282s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','87','2017-10-28 17:39:19') [ RunTime:0.0247s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','87','2017-10-28 17:44:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','86','2017-10-28 17:49:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','86','2017-10-28 17:54:19') [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','86','2017-10-28 17:59:19') [ RunTime:0.0221s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','86','2017-10-28 18:04:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','86','2017-10-28 18:09:19') [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','86','2017-10-28 18:14:19') [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','86','2017-10-28 18:19:19') [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','86','2017-10-28 18:24:19') [ RunTime:0.0253s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','86','2017-10-28 18:29:19') [ RunTime:0.0235s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509186559' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2017-10-28T19:30:19+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":32,"h_o":85},{"t":24,"h_d":32,"h_o":85},{"t":24,"h_d":32,"h_o":85},{"t":24,"h_d":31,"h_o":85},{"t":24,"h_d":31,"h_o":85},{"t":24,"h_d":31,"h_o":85},{"t":24,"h_d":31,"h_o":84},{"t":24,"h_d":31,"h_o":84},{"t":24,"h_d":31,"h_o":84},{"t":24,"h_d":31,"h_o":84},{"t":24,"h_d":31,"h_o":84},{"t":24,"h_d":31,"h_o":84}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0022s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','85','2017-10-28 18:35:19') [ RunTime:0.0242s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','85','2017-10-28 18:40:19') [ RunTime:0.0252s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','32','85','2017-10-28 18:45:19') [ RunTime:0.0233s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','85','2017-10-28 18:50:19') [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','85','2017-10-28 18:55:19') [ RunTime:0.0318s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','85','2017-10-28 19:00:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','84','2017-10-28 19:05:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','84','2017-10-28 19:10:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','84','2017-10-28 19:15:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','84','2017-10-28 19:20:19') [ RunTime:0.0221s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','84','2017-10-28 19:25:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','84','2017-10-28 19:30:19') [ RunTime:0.0234s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509190219' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002820s ]
+
+[ 2017-10-28T20:31:19+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":31,"h_o":84},{"t":24,"h_d":31,"h_o":84},{"t":24,"h_d":31,"h_o":83},{"t":24,"h_d":31,"h_o":83},{"t":24,"h_d":30,"h_o":83},{"t":24,"h_d":30,"h_o":83},{"t":24,"h_d":31,"h_o":83},{"t":24,"h_d":30,"h_o":83},{"t":24,"h_d":30,"h_o":83},{"t":24,"h_d":30,"h_o":83},{"t":24,"h_d":30,"h_o":82},{"t":24,"h_d":30,"h_o":83}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','84','2017-10-28 19:36:19') [ RunTime:0.0258s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','84','2017-10-28 19:41:19') [ RunTime:0.0237s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','83','2017-10-28 19:46:19') [ RunTime:0.0317s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','83','2017-10-28 19:51:19') [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','83','2017-10-28 19:56:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','83','2017-10-28 20:01:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','83','2017-10-28 20:06:19') [ RunTime:0.0317s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','83','2017-10-28 20:11:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','83','2017-10-28 20:16:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','83','2017-10-28 20:21:19') [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','82','2017-10-28 20:26:19') [ RunTime:0.0272s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','83','2017-10-28 20:31:19') [ RunTime:0.0351s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509193879' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002854s ]
+
+[ 2017-10-28T21:32:19+08:00 ] 10.97.41.175 /index.php/index/message_post?chip_id=lib-big&chip_pwd=123&data=[{"t":24,"h_d":31,"h_o":83},{"t":24,"h_d":30,"h_o":83},{"t":24,"h_d":30,"h_o":82},{"t":24,"h_d":30,"h_o":82},{"t":24,"h_d":30,"h_o":82},{"t":24,"h_d":29,"h_o":82},{"t":23,"h_d":30,"h_o":81},{"t":23,"h_d":29,"h_o":82},{"t":23,"h_d":30,"h_o":81},{"t":23,"h_d":30,"h_o":81},{"t":23,"h_d":30,"h_o":81},{"t":23,"h_d":30,"h_o":81}]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+NOTIC: [8] Use of undefined constant chip_pwd - assumed 'chip_pwd' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big" and password = "123"  )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 213 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','31','83','2017-10-28 20:37:19') [ RunTime:0.0230s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','83','2017-10-28 20:42:19') [ RunTime:0.0244s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','82','2017-10-28 20:47:19') [ RunTime:0.0246s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','82','2017-10-28 20:52:19') [ RunTime:0.0235s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','30','82','2017-10-28 20:57:19') [ RunTime:0.0253s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','24','29','82','2017-10-28 21:02:19') [ RunTime:0.0284s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','30','81','2017-10-28 21:07:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','29','82','2017-10-28 21:12:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','30','81','2017-10-28 21:17:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','30','81','2017-10-28 21:22:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','30','81','2017-10-28 21:27:19') [ RunTime:0.0234s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\index\Controller\IndexController.class.php 第 220 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum_oil`,`hum`,`time`) VALUES ('lib-big','23','30','81','2017-10-28 21:32:19') [ RunTime:0.0234s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1509197539' WHERE ( chip_id = "lib-big" and password = "123"  ) [ RunTime:0.0237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+

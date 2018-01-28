@@ -1,0 +1,82 @@
+[ 2017-10-15T14:06:02+08:00 ] 127.0.0.1 /ybplant/ybplant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013757s ]
+
+[ 2017-10-15T14:06:23+08:00 ] 127.0.0.1 /ybplant/ybplant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 36 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 46 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 48 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 48 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008167s ]
+
+[ 2017-10-15T14:40:51+08:00 ] 127.0.0.1 /ybplant/ybplant/index.php/index/sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu" )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2017-10-15T14:43:46+08:00 ] 127.0.0.1 /ybplant/ybplant/index.php/index/sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu" )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2017-10-15T14:44:19+08:00 ] 127.0.0.1 /ybplant/ybplant/index.php/index/sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu" )  [ RunTime:0.0004s ]
+
+[ 2017-10-15T06:45:13+00:00 ] 127.0.0.1 /ybplant/ybplant/index.php/index/sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu" )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002223s ]
+

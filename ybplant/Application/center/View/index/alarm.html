@@ -1,0 +1,87 @@
+<include file="Public/header" />
+        <title>云种植-报警设置</title>
+        <div style="width:100%;height:91vh;">
+            <div class="aside" style="width:15vw;height:100%;background-color:#f0f6f6;float:left; display:inline">
+                <div style="text-align:center;font-weight:900;font-size:2.5vw;padding-top:2vw;padding-bottom:2vw;">
+                    个人中心
+                </div>
+                <hr class="line-mod" style="width:10vw;height: 0;margin: 0 auto 15px;border: none;border-top: 1px solid #cadbe6;border-bottom: 1px solid #f8fbfb;">
+                <dl style="text-align:left">
+                    <dd><a href="{:U('index/center')}">数据总览</a></dd>
+                    <dd ><a href="{:U('index/bindChip')}">绑定芯片</a></dd>
+                    <dd ><a href="{:U('index/allData')}">实时数据</a></dd>
+                    <dd ><a href="{:U('index/autoWater')}">浇水设置</a></dd>
+                    <dd ><a href="{:U('index/undergoing')}">花盆绑定</a></dd>
+                    <dd  class="fd"><a href="{:U('index/alarm')}">报警设置</a></dd>
+                    <dd ><a href="{:U('index/UserInfo')}">用户设置</a></dd>
+                </dl>
+            </div>
+                
+            <div class="main_data" style="float:left;width:83%;height:100%;padding-left:2vw;">
+                <div style="font-size:2vw;font-weight:800;padding-top:3vh;padding-bottom:3vh;">
+                    报警设置
+                </div>                                
+                <script>
+                    $(function(){
+                            $(".switch input").bootstrapSwitch({ onColor:"info",size:"small"});
+                            });
+                </script>
+                <div style="width:37vw;height:45vh;border-radius: 2px;box-shadow: 0 2px 3px #f3f3f3;border: 1px solid #d7d7d7;float:left;margin-right:2vw;margin-top:2vh;">
+                     <p style="padding:2vh;font-weight:800">报警选项</p>
+                     <form method = 'post' action = "{:U('User/alarm_set_save')}">
+                     <div >
+                        <div class="col-md-offset-1 col-md-5">温度过高/过低报警</div>
+                        <div class="switch switch-small " ><input name="temp_alarm" type="checkbox"  <?php if($alarm['temp_alarm']==1)echo "checked";?> /></div>
+                        
+                        <div class="col-md-offset-1 col-md-5">湿度过高/过低报警</div>
+                        <div class="switch switch-small " ><input name="hum_alarm" type="checkbox"  <?php if($alarm['hum_alarm']==1)echo "checked";?> /></div>
+                        
+                        <div class="col-md-offset-1 col-md-5">自动浇水反馈异常报警</div>
+                        <div class="switch switch-small "><input name="feedback_alarm" type="checkbox"  <?php if($alarm['feedback_alarm']==1)echo "checked";?> /></div>
+                        
+                         <div class="col-md-offset-1 col-md-5">周报反馈</div>
+                         <div class="switch switch-small "><input name="week_report" type="checkbox"  <?php if($alarm['week_report']==1)echo "checked";?> /></div>
+                        
+                         <div class="col-md-offset-1 col-md-5">月报反馈</div>
+                         <div class="switch switch-small "><input name="month_report"  type="checkbox"  <?php if($alarm['month_report']==1)echo "checked";?> /></div>
+                        
+                        
+                        <div class="col-md-offset-4 col-md-3" style="top:2vh;"><button class=" button button-primary button-rounded button-small" style="" id="alarm_set_save">保存</button></div>
+                     </div>
+                     </form>
+                     
+                </div>
+                
+                 <div style="width:37vw;height:33vh;border-radius: 2px;box-shadow: 0 2px 3px #f3f3f3;border: 1px solid #d7d7d7;float:left;margin-right:2vw;margin-top:2vh;">
+                    <p style="padding:2vh;font-weight:800">报警方式</p>
+                    <div>
+                        <form method = 'post' action = "{:U('User/alarm_way_save')}">
+                            <div class="col-md-offset-1 col-md-3">手机报警</div><input name="call" id="call" value="{$alarm['call']}" /><button  type="button"  onclick="check_phone()">发送验证短信</button>
+                            <br><br>
+                            <div class="col-md-offset-1 col-md-3">邮箱报警</div><input name="mail" value="{$alarm['mail']}" /><button  type="button" onclick="check_mail()">发送验证邮件</button>
+                            
+                            <div class="col-md-offset-4 col-md-3" style="top:2vh;"><button  class=" button button-primary button-rounded button-small" style="">保存</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<script>
+			function check_phone()
+			{
+				var call = document.getElementById("call").value;
+				var get_url = "{:U('User/check_phone')}";
+				alert(get_url);
+				$.get(get_url, {call:call}, 
+					function(data){ 
+						alert("验证短信发送成功");
+				}); 
+				return false;
+			}
+			function check_mail()
+			{
+				alert("邮件功能待完善");
+			}
+		</script>
+   </body>
+</html>

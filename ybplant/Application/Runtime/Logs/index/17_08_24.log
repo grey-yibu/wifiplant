@@ -1,0 +1,984 @@
+[ 2017-08-24T13:52:24+08:00 ] 127.0.0.1 /ybplant/ybplant/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 36 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 46 行.
+NOTIC: [8] Undefined index: isuser E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 46 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 48 行.
+NOTIC: [8] Undefined index: isuser E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007978s ]
+
+[ 2017-08-24T13:52:34+08:00 ] 127.0.0.1 /ybplant/ybplant/index.php/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 36 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 46 行.
+NOTIC: [8] Undefined index: isuser E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 46 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 48 行.
+NOTIC: [8] Undefined index: isuser E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\134cf5005d9c7336f57f2569ed83887e.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2017-08-24T13:52:34+08:00 ] 127.0.0.1 /ybplant/ybplant/index.php/index/verify_c.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2017-08-24T13:54:02+08:00 ] 127.0.0.1 /ybplant/ybplant/index.php/index/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Use of undefined constant yanzhengma - assumed 'yanzhengma' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 81 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 86 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0582s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'yibu' AND `password` = '199467' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: a E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 36 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 46 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 48 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 48 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e866d82d961820ce3e62a2b25a9479f5.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2017-08-24T13:54:03+08:00 ] 127.0.0.1 /ybplant/ybplant/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 36 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 46 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 48 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 48 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\index\e27ac99aeaa7b8b624c6a9e6029f59fb.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-08-24T15:09:34+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 133 行.
+SQL: SHOW COLUMNS FROM `chip_temp` [ RunTime:0.0557s ]
+SQL: SELECT * FROM `chip_temp` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 139 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 140 行.
+SQL: INSERT INTO `chip_temp` (`chip_id`,`password`,`time`) VALUES ('test','test','2017-08-24 15:09:34') [ RunTime:0.0750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002432s ]
+
+[ 2017-08-24T15:09:57+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0032s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','23','2017-08-24 15:09:56') [ RunTime:0.0679s ]
+NOTIC: [8] Undefined variable: chipTemp E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 177 行.
+
+[ 2017-08-24T15:10:11+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0041s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','23','2017-08-24 15:10:11') [ RunTime:0.0744s ]
+NOTIC: [8] Undefined variable: chipTemp E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 177 行.
+
+[ 2017-08-24T15:13:15+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','23','2017-08-24 15:13:15') [ RunTime:0.0634s ]
+NOTIC: [8] Undefined variable: chipTemp E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 177 行.
+
+[ 2017-08-24T15:16:17+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0027s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','23','2017-08-24 15:16:17') [ RunTime:0.0750s ]
+NOTIC: [8] Undefined variable: chipTemp E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 177 行.
+
+[ 2017-08-24T15:19:20+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.32&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0072s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','23','2017-08-24 15:19:20') [ RunTime:0.1017s ]
+NOTIC: [8] Undefined variable: chipTemp E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 177 行.
+
+[ 2017-08-24T15:20:33+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','23','2017-08-24 15:20:33') [ RunTime:0.0685s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503559233' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2017-08-24T15:22:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0050s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','24','2017-08-24 15:22:22') [ RunTime:0.0972s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503559342' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2017-08-24T15:25:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','23','2017-08-24 15:25:22') [ RunTime:0.0913s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503559522' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2017-08-24T15:28:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=96.73&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','96','23','2017-08-24 15:28:22') [ RunTime:0.0956s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503559702' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001955s ]
+
+[ 2017-08-24T15:31:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','94','23','2017-08-24 15:31:22') [ RunTime:0.0950s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503559882' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002548s ]
+
+[ 2017-08-24T15:34:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=27&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','27','94','23','2017-08-24 15:34:22') [ RunTime:0.0970s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503560062' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-08-24T15:37:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=27&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0045s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','27','94','23','2017-08-24 15:37:22') [ RunTime:0.0869s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503560242' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2017-08-24T15:40:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=27&hum=94.69&hum_oil=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','27','94','24','2017-08-24 15:40:22') [ RunTime:0.1646s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503560422' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.1403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-08-24T15:43:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=27&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0050s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','27','94','23','2017-08-24 15:43:22') [ RunTime:0.0688s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503560602' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002480s ]
+
+[ 2017-08-24T15:46:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=27&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0035s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','27','94','23','2017-08-24 15:46:22') [ RunTime:0.0853s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503560782' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2017-08-24T15:49:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=27&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','27','94','23','2017-08-24 15:49:22') [ RunTime:0.1215s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503560962' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-08-24T15:52:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=27&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','27','94','23','2017-08-24 15:52:22') [ RunTime:0.0634s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503561142' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2017-08-24T15:55:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=94.48&hum_oil=29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0074s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','94','29','2017-08-24 15:55:22') [ RunTime:0.0914s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503561322' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2017-08-24T15:58:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0032s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','94','23','2017-08-24 15:58:22') [ RunTime:0.0991s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503561502' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+
+[ 2017-08-24T16:01:23+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=94.48&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0033s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','94','23','2017-08-24 16:01:22') [ RunTime:0.3672s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503561683' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2017-08-24T16:04:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=94.28&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0033s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','94','23','2017-08-24 16:04:22') [ RunTime:0.0964s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503561862' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002485s ]
+
+[ 2017-08-24T16:07:23+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.87&hum_oil=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0033s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','22','2017-08-24 16:07:22') [ RunTime:0.3778s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503562043' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002397s ]
+
+[ 2017-08-24T16:10:23+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','33','2017-08-24 16:10:22') [ RunTime:0.3651s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503562223' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+
+[ 2017-08-24T16:13:23+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:13:22') [ RunTime:0.3613s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503562403' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002357s ]
+
+[ 2017-08-24T16:16:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0039s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:16:22') [ RunTime:0.1088s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503562582' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2017-08-24T16:19:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0034s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:19:22') [ RunTime:0.0983s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503562762',`last_water_time`='1503562762' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001224s ]
+
+[ 2017-08-24T16:22:22+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:22:22') [ RunTime:0.0915s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503562942',`last_water_time`='1503562942' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2017-08-24T16:26:07+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0027s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:26:07') [ RunTime:0.1017s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503563167',`last_water_time`='1503563167' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002326s ]
+
+[ 2017-08-24T16:29:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0029s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:29:29') [ RunTime:0.1000s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503563369',`last_water_time`='1503563369' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2017-08-24T16:32:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','28','2017-08-24 16:32:29') [ RunTime:0.3683s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503563549',`last_water_time`='1503563549' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2017-08-24T16:35:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0026s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:35:29') [ RunTime:0.0623s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503563729',`last_water_time`='1503563729' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2017-08-24T16:38:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0058s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','28','2017-08-24 16:38:29') [ RunTime:0.1000s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503563909',`last_water_time`='1503563909' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2017-08-24T16:41:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0053s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:41:29') [ RunTime:0.0676s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503564089',`last_water_time`='1503564089' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002016s ]
+
+[ 2017-08-24T16:44:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:44:29') [ RunTime:0.2719s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503564269',`last_water_time`='1503564269' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2017-08-24T16:47:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0047s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','24','2017-08-24 16:47:29') [ RunTime:0.0930s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503564449',`last_water_time`='1503564449' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2017-08-24T16:50:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.06&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0071s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:50:29') [ RunTime:0.0892s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503564629',`last_water_time`='1503564629' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2017-08-24T16:53:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.26&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0027s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:53:29') [ RunTime:0.1193s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503564809',`last_water_time`='1503564809' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002389s ]
+
+[ 2017-08-24T16:56:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.46&hum_oil=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0047s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','22','2017-08-24 16:56:29') [ RunTime:0.0546s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503564989',`last_water_time`='1503564989' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001947s ]
+
+[ 2017-08-24T16:59:29+08:00 ] 192.168.2.226 /ybplant/ybplant/index.php/index/message?chip_id=test&password=test&temp=28&hum=93.06&hum_oil=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "test" and password = "test"  )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 150 行.
+NOTIC: [8] Use of undefined constant temp - assumed 'temp' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 151 行.
+NOTIC: [8] Use of undefined constant hum - assumed 'hum' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant hum_oil - assumed 'hum_oil' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\index\Controller\IndexController.class.php 第 153 行.
+SQL: INSERT INTO `chip_data` (`chip_id`,`temp`,`hum`,`hum_oil`,`time`) VALUES ('test','28','93','23','2017-08-24 16:59:29') [ RunTime:0.0950s ]
+SQL: UPDATE `chip_set` SET `last_connect_time`='1503565169',`last_water_time`='1503565169' WHERE ( chip_id = "test" and password = "test"  ) [ RunTime:0.0486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002352s ]
+

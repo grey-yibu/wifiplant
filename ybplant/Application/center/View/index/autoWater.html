@@ -1,0 +1,137 @@
+<include file="Public/header" />
+        <title>云种植-浇水设置</title>
+        <div style="width:100%;height:91vh;">
+            <div class="aside" style="width:15vw;height:100%;background-color:#f0f6f6;float:left; display:inline">
+                <div style="text-align:center;font-weight:900;font-size:2.5vw;padding-top:2vw;padding-bottom:2vw;">
+                    个人中心
+                </div>
+                <hr class="line-mod" style="width:10vw;height: 0;margin: 0 auto 15px;border: none;border-top: 1px solid #cadbe6;border-bottom: 1px solid #f8fbfb;">
+                <dl style="text-align:left">
+                    <dd><a href="{:U('index/center')}">数据总览</a></dd>
+                    <dd ><a href="{:U('index/bindChip')}">绑定芯片</a></dd>
+                    <dd ><a href="{:U('index/allData')}">实时数据</a></dd>
+                    <dd  class="fd"><a href="{:U('index/autoWater')}">浇水设置</a></dd>
+                    <dd ><a href="{:U('index/undergoing')}">花盆绑定</a></dd>
+                    <dd ><a href="{:U('index/alarm')}">报警设置</a></dd>
+                    <dd ><a href="{:U('index/UserInfo')}">用户设置</a></dd>
+                </dl>
+            </div>
+                
+            <div class="main_data" style="float:left;width:83%;height:100%;padding-left:2vw;">
+                <div style="font-size:2vw;font-weight:800;padding-top:3vh;padding-bottom:3vh;">
+                    自动浇花设置
+                </div>                                
+
+                <div style="width:76vw;height:33vh;border-radius: 2px;box-shadow: 0 2px 3px #f3f3f3;border: 1px solid #d7d7d7;float:left;margin-right:2vw;margin-top:2vh;overflow:auto;">
+                     <p style="padding:2vh;font-weight:800;float:left;">定时浇水</p>
+                     
+                     <div>
+                        <table class="table  table-hover" style="text-align:center">
+                            <thead>
+                                <tr>
+                                    <td>芯片id</td>
+                                    <td>浇水频率</td>
+                                    <td>浇水时间</td>
+                                    <td>浇水方式</td>
+                                    <td>每次抽水时间</td>
+                                    <td>操作</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="bindInfo" id="bindInfo">
+                                <tr>
+                                    <td>{$bindInfo.chip_id}</td>
+                                    <td>
+                                          <span class="button-dropdown button-small" data-buttons="dropdown">
+                                            <button class="button button-rounded button-small" id="chip_i_{$i}">
+                                                <if condition="($bindInfo.water_frequency eq 1) ">每两天
+                                                <elseif condition="($bindInfo.water_frequency eq 2) "/>每三天
+                                                <elseif condition="($bindInfo.water_frequency eq 3) "/>每五天
+                                                <elseif condition="($bindInfo.water_frequency eq 4) "/>每星期
+                                                <else />每天
+                                                </if> 
+                                            </button>
+                                         
+                                            <ul class="button-dropdown-list" >
+                                              <li><a onclick="change(1,'chip_i_{$i}',0,'每天')">每天</a></li>
+                                              <li><a onclick="change(1,'chip_i_{$i}',1,'每两天')">每两天</a></li>
+                                              <li><a onclick="change(1,'chip_i_{$i}',2,'每三天')">每三天</a></li>
+                                              <li><a onclick="change(1,'chip_i_{$i}',3,'每五天')">每五天</a></li>
+                                              <li><a onclick="change(1,'chip_i_{$i}',4,'每星期')">每星期</a></li>
+                                            </ul>
+                                          </span>
+                                          
+                                    </td>
+                                    <td>    <input type="time" value="{$bindInfo.water_time}" id="chip_t_{$i}" /> </td>
+                                    <td>
+                                        <span class="button-dropdown button-small" data-buttons="dropdown">
+                                                <button class="button button-rounded button-small" id="chip_d_{$i}">
+                                                <if condition="($bindInfo.water_way eq 1) ">滴灌（节水）
+                                                <elseif condition="($bindInfo.water_way eq 2) "/>快速间歇（土壤板结）
+                                                <elseif condition="($bindInfo.water_way eq 3) "/>长间隔
+                                                <else />普通
+                                                </if> 
+                                                </button>
+                                             
+                                                <ul class="button-dropdown-list" >
+                                                  <li><a onclick="change(2,'chip_d_{$i}',0,'普通')">普通</a></li>
+                                                  <li><a onclick="change(2,'chip_d_{$i}',1,'滴灌（节水）')">滴灌（节水）</a></li>
+                                                  <li><a onclick="change(2,'chip_d_{$i}',2,'快速间歇（土壤板结）')">快速间歇（土壤板结）</a></li>
+                                                  <li><a onclick="change(2,'chip_d_{$i}',3,'长间隔')">长间隔</a></li>
+                                                </ul>
+                                          </span>
+                                    </td>
+                                    <td><input id="amount_t_{$i}" value="{$bindInfo.water_amount}" style="width:8vw;text-align:center;">秒</td>
+                                    <td><button class="button button-primary button-rounded button-small" onclick="chip_save('{$bindInfo.chip_id}','chip_i_{$i}','chip_d_{$i}','chip_t_{$i}','amount_t_{$i}')">保存</button></td>
+                                </tr>
+                            </volist>
+                             <script>
+                            <volist name="bindInfo" id="bindInfo">
+                                var chip_i_{$i} = parseInt("{$bindInfo.water_frequency}");
+                                var chip_d_{$i} = parseInt("{$bindInfo.water_way}");
+                                
+                            </volist>
+                            </script>
+                            </tbody>
+                        </table>
+                     </div>
+                </div>
+                
+                <div style="width:37vw;height:33vh;border-radius: 2px;box-shadow: 0 2px 3px #f3f3f3;border: 1px solid #d7d7d7;float:left;margin-right:2vw;margin-top:2vh;">
+                     <p style="padding:2vh;font-weight:800">环境超限浇水</p>
+                     <div>
+                        <div class="col-md-offset-1 col-md-3">温度超过</div><input></input>时
+                        <br>
+                        <div class="col-md-offset-1 col-md-3">且湿度不超过</div><input></input>时
+                        <br>
+                        <div class="col-md-offset-1 col-md-3">进行浇水</div>
+                        <br>
+                        
+                        <div class="col-md-offset-4 col-md-3" style="top:2vh;"><button class=" button button-primary button-rounded button-small"  >保存</button></div>
+                     </div>
+                </div>
+                
+                 <div style="width:37vw;height:33vh;border-radius: 2px;box-shadow: 0 2px 3px #f3f3f3;border: 1px solid #d7d7d7;float:left;margin-right:2vw;margin-top:2vh;">
+                     <p style="padding:2vh;font-weight:800">最近浇水日志</p>
+                     <div>
+                       
+                     </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function change(a,b,c,d)
+            {
+                $("#"+b).text(d);
+                eval(b + "=" + c);
+            }
+            function chip_save(chip_id,i,d,time,amount)
+            {
+                var t = $("#" + time).val();
+                var water_amount = $("#" + amount).val();
+                var ajax_url = "{:U('User/water_set_change')}";
+                window.location.href = ajax_url + "?chip_id="+chip_id+"&water_frequency="+eval(i)+"&water_time="+t+"&water_way="+eval(d)+"&water_amount="+water_amount;
+            }
+        </script>
+   </body>
+</html>

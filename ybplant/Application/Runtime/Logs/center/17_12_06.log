@@ -1,0 +1,270 @@
+[ 2017-12-06T09:48:57+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=lib-big
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "lib-big" and unix_timestamp(time)>1511920137 and unix_timestamp(time)<1512524937  )  [ RunTime:0.0053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-12-06T09:48:57+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=lib-big
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big"  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-12-06T09:48:58+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=CCIE-mdx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "CCIE-mdx"  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-12-06T09:48:58+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=CCIE-mdx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "CCIE-mdx" and unix_timestamp(time)>1511920138 and unix_timestamp(time)<1512524938  )  [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-12-06T09:49:05+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=mantuoluo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "mantuoluo"  )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-12-06T09:49:05+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=mantuoluo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "mantuoluo" and unix_timestamp(time)>1511920145 and unix_timestamp(time)<1512524945  )  [ RunTime:0.0052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-12-06T16:31:22+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=lib-big
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "lib-big" and unix_timestamp(time)>1511944282 and unix_timestamp(time)<1512549082  )  [ RunTime:0.0084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-12-06T16:31:22+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=lib-big
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big"  )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-12-06T16:31:23+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=CCIE-mdx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "CCIE-mdx" and unix_timestamp(time)>1511944283 and unix_timestamp(time)<1512549083  )  [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-12-06T16:31:24+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=CCIE-mdx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "CCIE-mdx"  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-12-06T16:31:25+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=mantuoluo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "mantuoluo" and unix_timestamp(time)>1511944285 and unix_timestamp(time)<1512549085  )  [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-12-06T16:31:25+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=mantuoluo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "mantuoluo"  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-12-06T22:46:37+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=lib-big
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "lib-big"  )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2017-12-06T22:46:37+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=lib-big
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "lib-big" and unix_timestamp(time)>1511966797 and unix_timestamp(time)<1512571597  )  [ RunTime:0.0053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2017-12-06T22:46:41+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=CCIE-mdx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "CCIE-mdx"  )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-12-06T22:46:41+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=CCIE-mdx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "CCIE-mdx" and unix_timestamp(time)>1511966801 and unix_timestamp(time)<1512571601  )  [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-12-06T22:46:47+08:00 ] 127.0.0.1 /center.php/Data/return_data.html?chip_id=mantuoluo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "mantuoluo" and unix_timestamp(time)>1511966807 and unix_timestamp(time)<1512571607  )  [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-12-06T22:46:47+08:00 ] 127.0.0.1 /center.php/Data/return_last_time.html?chip_id=mantuoluo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' D:\wamp\www\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "mantuoluo"  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+

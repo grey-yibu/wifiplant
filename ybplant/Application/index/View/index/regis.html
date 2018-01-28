@@ -1,0 +1,44 @@
+<include file="Public/header" />
+        <title>用户注册</title>
+       
+        <div style="height:91vh;background:url(__PUBLIC__/index/lgbg.jpg);text-align:center;background-size: cover;">
+            <div style="margin:0 auto;width:90%;padding-top:10vh;height:82vh;text-align:center;">
+                <form action="<?php $url = U('index/doRegister');echo substr($url,0,strlen($url)-5);?>" method = 'post'>
+                <div style="background-color:rgba(255, 255, 255, 0.8);width:80%;height:63vh;border-radius:5px;margin:0 auto;padding-left:2vw;padding-right:2vw;">
+                    <br>
+                    <p style="font-size:2vw;font-weight:800;margin-top:5vh;text-align:left;border-bottom: 1vh solid #ddd;">注册帐号</p>
+                    <br>
+                    <br>
+                    <div class="col-md-offset-2 col-md-2">用户名</div><div class="col-md-4"><input name="username" class="form-control"></input></div><br><br>
+                    <div class="col-md-offset-2 col-md-2">密码</div><div class="col-md-4"><input type="password" name="password" class="form-control"></input></div><br><br>
+                    <div class="col-md-offset-2 col-md-2">确认密码</div><div class="col-md-4"><input type="password" class="form-control"></input></div><br><br>
+                    <div class="col-md-offset-2 col-md-2">验证码</div><div class="col-md-4" style="padding:0"><div class="col-md-6"><input class="form-control" name="yanzhengma"></input></div><div  class="col-md-6"><img id="yanzhengma" alt="验证码" src="{:U('index/verify_c')}" title="点击刷新" style="height:5vh;width:100%"  /></div></div><br><br>
+                    <br>
+                    <div class="col-md-offset-4 col-md-4"> <button type="submit" class="button button-highlight button-action" style="margin-top:1vh;width:100%">立即注册</button></div>
+                    <div class="col-md-offset-4 col-md-4"> <input class="switch" type="checkbox"  checked /><a>我已阅读并同意相关服务条款和隐私政策</a> </div>
+                </div>
+                </form>
+            </div>
+            
+            <script>
+                // 验证码生成  
+                var captcha_img = $('#yanzhengma');
+                var verifyimg = captcha_img.attr("src");  
+                captcha_img.attr('title', '点击刷新');  
+                captcha_img.click(function(){  
+                    if( verifyimg.indexOf('?')>0){  
+                        $(this).attr("src", verifyimg+'&random='+Math.random());  
+                    }else{  
+                        $(this).attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());  
+                    }  
+                });  
+            </script>
+            
+            <div style="width:100%;height:10vh;background-color:#660000;font-weight:bold;color:white;padding:1vh">
+                	Copyright 2017 © yibu. All rights reserved.<br>京ICP备16011864号
+            </div>
+        </div>
+   
+        
+    </body>
+</html>

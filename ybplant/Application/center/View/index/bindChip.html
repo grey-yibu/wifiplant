@@ -1,0 +1,89 @@
+<include file="Public/header" />
+        <title>云种植-绑定芯片</title>
+        <div style="width:100%;height:91vh;">
+            <div class="aside" style="width:15vw;height:100%;background-color:#f0f6f6;float:left; display:inline">
+                <div style="text-align:center;font-weight:900;font-size:2.5vw;padding-top:2vw;padding-bottom:2vw;">
+                    个人中心
+                </div>
+                <hr class="line-mod" style="width:10vw;height: 0;margin: 0 auto 15px;border: none;border-top: 1px solid #cadbe6;border-bottom: 1px solid #f8fbfb;">
+                <dl style="text-align:left">
+                    <dd><a href="{:U('index/center')}">数据总览</a></dd>
+                    <dd   class="fd"><a href="{:U('index/bindChip')}">绑定芯片</a></dd>
+                    <dd><a href="{:U('index/allData')}">实时数据</a></dd>
+                    <dd ><a href="{:U('index/autoWater')}">浇水设置</a></dd>
+                    <dd ><a href="{:U('index/undergoing')}">花盆绑定</a></dd>
+                    <dd ><a href="{:U('index/alarm')}">报警设置</a></dd>
+                    <dd ><a href="{:U('index/UserInfo')}">用户设置</a></dd>
+                </dl>
+            </div>
+                
+            <div class="main_data" style="float:left;width:83%;height:100%;padding-left:2vw;">
+                <div style="font-size:2vw;font-weight:800;padding-top:3vh;padding-bottom:3vh;">
+                    绑定芯片
+                </div>                                
+
+                <div style="width:76vw;height:33vh;border-radius: 2px;box-shadow: 0 2px 3px #f3f3f3;border: 1px solid #d7d7d7;float:left;margin-right:2vw;margin-top:2vh;overflow:auto;">
+                     <p style="padding:2vh;font-weight:800">已绑芯片</p>
+                     <div >
+                        <table class="table  table-hover" style="text-align:center">
+                            <thead>
+                                <tr>
+                                    <td>芯片id</td>
+                                    <td>绑定时间</td>
+                                    <td>连接状态</td>
+                                    <td>操作</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="bindInfo" id="bindInfo">
+                                <tr>
+                                    <td>{$bindInfo.chip_id}</td>
+                                    <td>{$bindInfo.bind_time}</td>
+                                    <td>连接正常</td>
+                                    <td><a href="#" onclick="delete_chip('{$bindInfo.chip_id}')">删除</a>&nbsp |&nbsp <a>修改</a></td>
+                                </tr>
+                            </volist>
+                            <if condition ="$bindInfo.chip_id eq ''">
+                                <tr style="text-align:center;width:100%;">
+                                    <td style="font-size:3vw;font-weight:900;text-align:center">无绑定芯片信息，请绑定芯片</td>
+                                </tr>
+                            </if>
+                            </tbody>
+                        </table>
+                     </div>
+                </div>
+                
+                <div style="width:76vw;height:35vh;border-radius: 2px;box-shadow: 0 2px 3px #f3f3f3;border: 1px solid #d7d7d7;float:left;margin-right:2vw;margin-top:2vh;">
+                     <p style="padding:2vh;font-weight:800">在线绑定</p>
+                     <div>
+                     <form action="{:U('index/doBindChip')}" method = 'get'>
+                        <div class="col-md-offset-2 col-md-2" style="float:left;">设置芯片id</div><input id="uuid" style="width:20vw;" name="chip_id" /><a class="button button-3d button-action button-pill" style="margin-left:3vw" id="get_uuid">在线获取</a>
+                        <br>
+                        <br>
+                        <div class="col-md-offset-2  col-md-2" style="float:left;">输入芯片密码</div><input style="width:20vw;" name="password" />
+                        <br>
+                        <br>
+                        <div class="col-md-offset-2 col-md-2"><button class="button button-highlight button-rounded button-small">查看帮助</button> </div>
+                        <div class="col-md-offset-1  col-md-2"><button type="submit" class="button button-raised button-primary button-rounded button-small">绑定</button></div>
+                    </form>
+                    </div>
+                     
+                </div>
+                <script>
+                    var ajax_url = "<?php echo "http://".$_SERVER['HTTP_HOST'];?>{:U('index/uuid')}"
+                    $("#get_uuid").click(function(){
+                         $.get(ajax_url, function(data){ 
+                            $("#uuid").val(data);
+                         });
+                    });
+					function delete_chip(chip_id)
+					{
+						var ajax_url = "{:U('Data/delete_chip')}";
+						window.location.href = ajax_url + "?chip_id=" + chip_id;
+					}
+                </script>
+            </div>
+        </div>
+
+   </body>
+</html>

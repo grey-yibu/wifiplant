@@ -1,0 +1,899 @@
+[ 2017-10-15T14:06:25+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/center
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0654s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\9d213bf067cd19d8521997830e951f64.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\9d213bf067cd19d8521997830e951f64.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\9d213bf067cd19d8521997830e951f64.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\9d213bf067cd19d8521997830e951f64.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2017-10-15T14:06:26+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_data.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0668s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "1" and unix_timestamp(time)>1507442786 and unix_timestamp(time)<1508047586  )  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2017-10-15T14:06:34+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/bindChip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-10-15T14:06:36+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/allData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-10-15T14:06:37+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_data.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "1" and unix_timestamp(time)>1507442796 and unix_timestamp(time)<1508047596  )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2017-10-15T14:06:37+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_last_time.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "1"  )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2017-10-15T14:06:37+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_last_time.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "1"  )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-10-15T14:06:38+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/autoWater.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-10-15T14:06:43+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/alarm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0696s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu"  )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2017-10-15T14:07:58+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/autoWater.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-10-15T14:08:02+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/allData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-10-15T14:08:03+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_last_time.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "1"  )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2017-10-15T14:08:03+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_data.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "1" and unix_timestamp(time)>1507442883 and unix_timestamp(time)<1508047683  )  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001702s ]
+
+[ 2017-10-15T14:08:03+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_last_time.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "1"  )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2017-10-15T14:08:09+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/autoWater.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-10-15T14:12:32+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/allData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-10-15T14:12:32+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_last_time.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "1"  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2017-10-15T14:12:32+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_data.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "1" and unix_timestamp(time)>1507443152 and unix_timestamp(time)<1508047952  )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-10-15T14:12:32+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_last_time.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "1"  )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-10-15T14:39:42+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/bindChip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-10-15T14:40:34+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/undergoing.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-10-15T14:40:37+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/alarm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu"  )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-10-15T14:40:40+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/center.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\9d213bf067cd19d8521997830e951f64.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\9d213bf067cd19d8521997830e951f64.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\9d213bf067cd19d8521997830e951f64.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\9d213bf067cd19d8521997830e951f64.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2017-10-15T14:40:40+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_data.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "1" and unix_timestamp(time)>1507444840 and unix_timestamp(time)<1508049640  )  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2017-10-15T14:44:09+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/undergoing.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-10-15T14:44:10+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_data.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "1" and unix_timestamp(time)>1507445050 and unix_timestamp(time)<1508049850  )  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2017-10-15T14:44:11+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/alarm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-10-15T14:44:15+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/User/alarm_set_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\UserController.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\UserController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0032s ]
+SQL: UPDATE `alarm` SET `temp_alarm`='1',`hum_alarm`='1',`feedback_alarm`='1',`week_report`='1',`month_report`='1' WHERE ( username = "yibu"  ) [ RunTime:0.0876s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-10-15T14:44:16+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/alarm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-10-15T14:45:45+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/undergoing.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\f47a73710cbd3a8e4d353cbb2c5ff0f6.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-10-15T14:45:47+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/autoWater.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-10-15T14:46:16+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/alarm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 58 行.
+SQL: SHOW COLUMNS FROM `alarm` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `alarm` WHERE ( username = "yibu"  )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\212d08ee451e151c330f2df2aa119fc8.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-10-15T14:48:14+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/bindChip.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\665b0d6e38964483d91d0b4b33ee6bc8.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-10-15T14:48:18+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/allData.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\01219490d900f8beb22a73a3db4c0b9e.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-10-15T14:48:18+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_last_time.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "1"  )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-10-15T14:48:18+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_data.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 6 行.
+NOTIC: [8] Use of undefined constant start_time - assumed 'start_time' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+NOTIC: [8] Undefined index: start_time E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `chip_data` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `chip_data` WHERE ( chip_id = "1" and unix_timestamp(time)>1507445298 and unix_timestamp(time)<1508050098  )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2017-10-15T14:48:18+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/Data/return_last_time.html?chip_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant chip_id - assumed 'chip_id' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\DataController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `chip_set` WHERE ( chip_id = "1"  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2017-10-15T14:48:19+08:00 ] 127.0.0.1 /ybplant/ybplant/center.php/index/autoWater.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\center\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `chip_set` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `chip_set` WHERE ( username = "yibu"  )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 57 行.
+NOTIC: [8] Use of undefined constant isuser - assumed 'isuser' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 59 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 147 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\webprog\environment\1\thinkphp\wamp\www\ybplant\ybplant\Application\Runtime\Cache\center\8ce1a0c4f165da22c003458bdf1eeaf3.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+

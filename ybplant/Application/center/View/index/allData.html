@@ -1,0 +1,242 @@
+<include file="Public/header" />
+        <script type="text/javascript" src="__PUBLIC__/center/laydate/laydate.js"></script>
+        <title>云种植-实时数据</title>
+        <div style="width:100%;height:91vh;">
+            <div class="aside" style="width:15vw;height:100%;background-color:#f0f6f6;float:left; display:inline">
+                <div style="text-align:center;font-weight:900;font-size:2.5vw;padding-top:2vw;padding-bottom:2vw;">
+                    个人中心
+                </div>
+                <hr class="line-mod" style="width:10vw;height: 0;margin: 0 auto 15px;border: none;border-top: 1px solid #cadbe6;border-bottom: 1px solid #f8fbfb;">
+                <dl style="text-align:left">
+                    <dd><a href="{:U('index/center')}">数据总览</a></dd>
+                    <dd ><a href="{:U('index/bindChip')}">绑定芯片</a></dd>
+                    <dd  class="fd"><a href="{:U('index/allData')}">实时数据</a></dd>
+                    <dd ><a href="{:U('index/autoWater')}">浇水设置</a></dd>
+                    <dd ><a href="{:U('index/undergoing')}">花盆绑定</a></dd>
+                    <dd ><a href="{:U('index/alarm')}">报警设置</a></dd>
+                    <dd ><a href="{:U('index/UserInfo')}">用户设置</a></dd>
+                </dl>
+            </div>
+                
+            <div class="main_data" style="float:left;width:83%;height:100%;padding-left:2vw;">
+                <div style="font-size:2vw;font-weight:800;padding-top:3vh;padding-bottom:3vh;">
+                    实时数据
+                </div>                                
+
+                <div style="width:76vw;height:67vh;border-radius: 2px;box-shadow: 0 2px 3px #f3f3f3;border: 1px solid #d7d7d7;float:left;margin-right:2vw;margin-top:2vh;">
+                     <div style="padding:2vh;font-weight:800;float:left;width:30vw;">
+                        <span class="button-dropdown button-small" data-buttons="dropdown">
+                            <button id="chip_name_show" class="button button-rounded button-small">
+                              芯片 {$chip_id}<i class="fa fa-caret-down"></i>
+                            </button>
+                         
+                            <ul class="button-dropdown-list">
+                            <volist name="bindInfo" id="bindInfo">
+                              <li><a style="width:30vw;" onclick="change_chip(this)" id="{$bindInfo.chip_id}">芯片 {$bindInfo.chip_id}</a></li>
+                            </volist>
+                            </ul>
+                        </span>
+                        
+                     </div>
+                     <div  style="float:right;margin:0;margin-right:2vw;margin-top:1vh;">
+                        <span class="button-dropdown button-small" data-buttons="dropdown">
+                            <button class="button button-rounded button-small">
+                              温湿度图表数据 <i class="fa fa-caret-down"></i>
+                            </button>
+                         
+                            <ul class="button-dropdown-list">
+                              <li><a href="">温度图表数据</a></li>
+                              <li><a href="">湿度图表数据</a></li>
+                              <li><a href="">温湿度图表数据</a></li>
+                            </ul>
+                        </span>
+                     </div>
+                     <br>
+                     <br>
+                     <br>
+                     
+                    <div style="margin-top:0vh;">
+                                <div id="a1" style="width:70vw;height:40vh;background-color:red;margin:2vh;"></div>
+                    </div>
+                         
+                     <div style="position:relative;top:-10vh;">
+                         
+                         
+                         <div style="width:70vw;">
+                            <div class=" col-md-3" style="float:left;text-align:right;">开始时间：</div><input class=" col-md-2"  onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'});laydate.skin('molv');" id="start_time" />
+                            <div class=" col-md-3" style="float:left;text-align:right;">结束时间：</div><input class=" col-md-2" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'});laydate.skin('dahong');" id="end_time" />
+                         </div>
+                         
+                        <div style="width:70vw;height:5vh;margin-top:5vh;text-align:center">
+                            <div class=" col-md-3" style="text-align:right;float:left;">上次连接时间：</div><div class=" col-md-2" id="connect_time" style="float:left;" ></div>
+                            <div class=" col-md-3" style="text-align:right;float:left;">上次浇水时间：</div><div class=" col-md-2" id="water_time" style="float:left;"></div>
+                            <div class=" col-md-5" style="float:left;text-align:right;">空白数据显示：<input class=" col-md-2" id="show_black" type="checkbox" /></div>
+                            <button class="col-md-offset-3 col-md-1" onclick="find_data()" >查询</button>
+
+                         </div>
+                     
+                      
+                     </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <script>
+            $("#show_black").bootstrapSwitch({ onColor:"info",size:"small"});
+        </script>
+
+        
+        <script>
+        var a1 = echarts.init(document.getElementById('a1'));
+        option1 = {
+                 color:['#00CC00','#FF9900','#6699FF'],
+                title : {
+                    text: '芯片详细',
+                },
+                tooltip : {
+                    trigger: 'axis'
+                },
+                legend: {
+                    data:['温度','土壤湿度','空气湿度']
+                },
+                toolbox: {
+                    show : true,
+                    feature : {
+                        mark : {show: true},
+                        dataView : {show: true, readOnly: false},
+                        magicType : {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+                        restore : {show: true},
+                        saveAsImage : {show: true}
+                    }
+                },
+                calculable : true,
+                xAxis : [
+                    {
+                        type : 'category',
+                        boundaryGap : false,
+                        data : []
+                    }
+                ],
+                yAxis : [
+                    {
+                        type : 'value',
+                        name: '温度',
+                        position: 'left',
+                        axisLabel: {
+                                formatter: '{value} ℃'
+                            }
+                    },
+                    {
+                       type: 'value',
+                        name: '土壤湿度',
+                        min: 0,
+                        max: 100,
+                        position: 'right',
+                        axisLabel: {
+                            formatter: '{value} %'
+                        }
+                    },
+                    {
+                       type: 'value',
+                        name: '空气湿度',
+                        min: 0,
+                        max: 100,
+                        position: 'right',
+                        axisLabel: {
+                            formatter: '{value} %'
+                        }
+                    }
+                ],
+                series : [
+                    {
+                        name:'温度',
+                        type:'line',
+                        smooth:true,
+                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                         yAxisIndex: 0,
+                        data:[]
+                    },
+                    {
+                        name:'土壤湿度',
+                        type:'line',
+                        smooth:true,
+                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                         yAxisIndex: 1,
+                        data:[]
+                    },
+                    {
+                        name:'空气湿度',
+                        type:'line',
+                        smooth:true,
+                        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+                         yAxisIndex: 2,
+                        data:[]
+                    }
+                ]
+            };
+            a1.setOption(option1);
+            
+        </script>
+
+
+        <script>
+            function  get_last_time(e)
+            {
+                var chip_id = e.id;
+                var ajax_url = "{:U('Data/return_last_time')}";
+                $.get(ajax_url, {chip_id:chip_id}, 
+                    function(data){ 
+                        result = JSON.parse(data);
+                        $("#connect_time").html(result.last_connect);
+                        $("#water_time").html(result.last_water);
+                    });
+            }
+			var a = new Object();
+            a.id = "{$chip_id}";
+            get_last_time(a);
+        </script>
+        <script>
+			var chip_id= "{$chip_id}";
+            function  change_chip(e)
+            {
+                get_last_time(e);
+                chip_id = e.id;
+                $("#chip_name_show").text("芯片 "+ chip_id);
+                var result ="" ;
+                var ajax_url = "{:U('Data/return_data')}";
+                $.get(ajax_url, {chip_id:chip_id}, 
+                    function(data){ 
+                        result = JSON.parse(data);
+                        a1.setOption({
+                            xAxis : [{data : result.time}],
+                            series : [{data:result.temp},{data:result.hum},{data:result.hum_oil}]
+                        })
+                    });
+            }
+            var a = new Object();
+            a.id = "{$chip_id}";
+            change_chip(a);
+        </script>
+         <script>
+            function  find_data(e)
+            {
+                if(!chip_id)
+                    alert("chip_id不能为空");
+                var start_time = $("#start_time").val();
+                var end_time = $("#end_time").val();
+              
+                var result ="" ;
+                var ajax_url = "{:U('Data/return_data')}";
+                $.get(ajax_url, {chip_id:chip_id,start_time:start_time,end_time:end_time}, 
+                    function(data){ 
+                        result = JSON.parse(data);
+                        a1.setOption({
+                            xAxis : [{data : result.time}],
+                            series : [{data:result.temp},{data:result.hum},{data:result.hum_oil}]
+                        })
+                    });
+            }
+        </script>
+   </body>
+</html>
